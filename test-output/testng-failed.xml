@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="D:/Testng Stored Automation(failed)">
+    <classes>
+      <class name="wizardClass">
+        <methods>
+          <include name="userAddress"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="userData"/>
+          <include name="getDate"/>
+        </methods>
+      </class> <!-- wizardClass -->
+    </classes>
+  </test> <!-- D:/Testng Stored Automation(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
